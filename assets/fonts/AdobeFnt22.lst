@@ -1,0 +1,151 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DMSerifDisplay-Italic
+FamilyName:DM Serif Display
+StyleName:Italic
+FullName:DM Serif Display Italic
+MenuName:DM Serif Display
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\DMSerifDisplay-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:70260
+FileModTime:1615967958
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,DM Serif Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DMSerifDisplay-Regular
+FamilyName:DM Serif Display
+StyleName:Regular
+FullName:DM Serif Display Regular
+MenuName:DM Serif Display
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\DMSerifDisplay-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:75596
+FileModTime:1610495211
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,DM Serif Display
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Book
+FamilyName:Gotham
+StyleName:Book
+FullName:Gotham Book
+MenuName:Gotham Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\Gotham-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:99364
+FileModTime:1610495211
+WeightClass:325
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gotham Book
+NameArray:0,Win,1,Gotham Book
+NameArray:0,Win,16,Gotham
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Light
+FamilyName:Gotham
+StyleName:Light
+FullName:Gotham Light
+MenuName:Gotham Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\Gotham-Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:99080
+FileModTime:1610495210
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gotham Light
+NameArray:0,Win,1,Gotham Light
+NameArray:0,Win,16,Gotham
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Gotham-Medium
+FamilyName:Gotham
+StyleName:Medium
+FullName:Gotham Medium
+MenuName:Gotham Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\Gotham-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:102900
+FileModTime:1610495210
+WeightClass:350
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Gotham Medium
+NameArray:0,Win,1,Gotham Medium
+NameArray:0,Win,16,Gotham
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\peter\Desktop\MCG\Broadbeach\Website\Website layout Desktop FINAL\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1610495210
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+

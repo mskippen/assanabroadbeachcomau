@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Gotham;
+  src: url(./assets/fonts/Gotham-Book.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Gotham, "arial";
+}
+
+main {
+  width: 80%;
+}
+
+header {
+  width: 150px;
+}
+header img {
+  width: 100%;
+}
+
+h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  font-size: 13px;
+}

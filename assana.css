@@ -1,0 +1,1465 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav .nav-btn {
+  width: initial !important;
+}
+/* @media screen and (min-width: 768px) {
+  nav .nav-items > a {
+    margin-right: -35px;
+  }
+} */
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .section-grid {
+    flex-direction: column;
+  }
+  .img-block,
+  .text-block {
+    height: 50vh;
+    width: 100vw;
+  }
+  section .img-block img {
+    height: 100%;
+  }
+  h3 {
+    font-size: 2.8rem;
+  }
+  h6 {
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 1.6rem;
+  }
+  section p {
+    font-size: 1.1rem;
+  }
+  section.immerse ul, section.immerse .text-block h4 {
+    font-size: 1.5rem !important;
+  }
+  section.immerse article h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+  nav .nav-items a:nth-child(1) {
+    display: none;
+  }
+  nav .menu-icon i {
+    font-size: 29px;
+  }
+  header nav .hamburger-menu {
+    margin-left: 7rem;
+    font-size: 40px;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    font-size: 3rem;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    width: 85%;
+  }
+  section.architecture article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    margin-top: 3rem;
+  }
+  .text-block {
+    height: 40vh;
+  }
+  section.architecture article {
+    margin-top: 2rem;
+  }
+  section.interiors article h3 {
+    margin-top: 0;
+  }
+  .img-block {
+    height: 60vh;
+  }
+  .carousel-inner .carousel-item p.carousel-desc {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+  }
+  .carousel-inner:not(section.project-team .carousel-inner) {
+    top: 20%;
+}
+  section.location p {
+    margin-bottom: 0;
+  }
+  section .carousel-section img {
+    height: 32vh;
+    width: 100%;
+    margin-top: 3rem;
+  }
+  section.carousel3 p.carousel-desc,
+  section.carousel5 .carousel-desc {
+    font-size: 22px;
+    text-align: center;
+  }
+  section.project-team .assana-logo.d-none {
+    margin-top: 0rem;
+  }
+  section.project-team .assana-logo.d-none img {
+    width: 169px;
+    height: 130px;
+  }
+  section.project-team h3 {
+    margin-top: 0rem;
+    color: #fff;
+  }
+  section.project-team .carousel-logo img {
+    width: 121px;
+    margin-top: 11.4rem;
+  }
+  section.project-team img.project-img {
+    display: none;
+  }
+  section.project-team article {
+    width: 100%;
+    order: 1;
+  }
+  section.project-team article p,
+  section.project-team a {
+    font-size: 20px;
+  }
+  section.project-team .carousel-btn {
+    font-family: Gotham, "arial";
+    bottom: -29px;
+  }
+  section.project-team img.project-img {
+    display: block;
+  }
+  section.project-team .contentBox {
+    flex-direction: column;
+  }
+  
+  section.project-team article img {
+    margin-top: 1.5rem;
+    max-height: 75px;
+    min-height: 75px;
+    min-width: 130px;
+    max-height: 130px;
+    height: 100%;
+    margin: 1rem auto;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  section.contact .contact-wrapper header {
+    width: 100%;
+  }
+
+  select {
+    width: 100%;
+    padding: 1rem;
+  }
+  section.contact input, section.contact select {
+    padding: 1rem;
+    height: auto;
+  }
+  form {
+    padding: 1.6rem;
+    width: 100%;
+  }
+  section.contact .contact-wrapper {
+    width: 80%;
+}
+  section.project-team .wrapper {
+    width: 80%;
+    height: 82vh;
+  }
+  header nav .nav-items {
+    margin-right: 1rem;
+}
+  section.project-team article {
+    width: 100%;
+  }
+   button.nav-btn {
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+}
+  section.project-team img.project-img {
+    width: 100%;
+    height: 48vh;
+    margin: 0 auto;
+    /* margin-top: 17px; */
+    display: block;
+    border-radius: 2px;
+  }
+  section.project-team .img {
+    width: 100%;
+  }
+  section.project-team .carousel-item article .slide-img {
+    width: 275px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+  .carousel-section .container {
+    max-width: 693px;
+  }
+  show-active a.active + .fp-tooltip {
+    display: none;
+  }
+  #fp-nav ul li:hover .fp-tooltip,
+  #fp-nav.fp-show-active a.active + .fp-tooltip {
+    -webkit-transition: opacity 0.2s ease-in;
+    transition: opacity 0.2s ease-in;
+    width: auto;
+    opacity: 0;
+    display: none;
+  }
+  .text-block {
+    height: 40vh;
+  }
+  .img-block {
+    height: 60vh;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  section.immerse article {
+    width: 70%;
+    /* line-height: 1.9; */
+  }
+  section.immerse article h3 {
+    margin-top: initial;
+  }
+  section .img-block img {
+    height: 100%;
+  }
+  section.architecture .img-block,
+  section.location .img-block,
+  section.lifestyle .img-block {
+    height: 55vh;
+  }
+  section.architecture .text-block,
+  section.location .text-block,
+  section.lifestyle .text-block {
+    height: 45vh;
+  }
+  section.interiors .img-block {
+    height: 68vh;
+  }
+  section.interiors .text-block {
+    height: 32vh;
+  }
+  section.interiors .text-block h3 {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  section.location article {
+    margin-top: 4rem;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    line-height: 1.8;
+    margin: 1.3rem auto;
+    line-height: 1.6;
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+  section.immerse ul,
+  section.immerse h4 {
+    font-size: 1.2rem !important;
+    line-height: 1.4;
+  }
+  section.architecture article {
+    margin-top: 3rem;
+  }
+  nav .nav-items a:nth-child(1) {
+    display: none;
+  }
+  nav .menu-icon i {
+    font-size: 29px;
+  }
+  header nav .hamburger-menu {
+    margin-left: 7rem;
+    font-size: 40px;
+  }
+  h4 {
+    font-size: 1.3rem;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  section.project-team .assana-logo.d-none {
+    margin-top: 0rem;
+  }
+  section.project-team .assana-logo.d-none img {
+    width: 169px;
+    height: 130px;
+  }
+  section.project-team .wrapper {
+    height: 82vh;
+    width: 73%;
+}
+  section.project-team h3 {
+    margin-top: 0rem;
+    color: #fff;
+  }
+  section.project-team .carousel-logo img {
+    width: 121px;
+    margin-top: 11.4rem;
+  }
+  section.project-team img.project-img {
+    display: none;
+  }
+  section.project-team article {
+    width: 100%;
+    order: 1;
+  }
+  section.project-team .carousel-btn span {
+    font-size: 24px;
+    /* color: #fff; */
+}
+  section.project-team article p,
+  section.project-team a {
+    font-size: 17px;
+  }
+  section.project-team .carousel-btn {
+    font-family: Gotham, "arial";
+    bottom: 2px;
+  }
+  section.project-team img.project-img {
+    display: block;
+    width: 100%;
+  }
+  section.project-team .contentBox {
+    flex-direction: column;
+  }
+  section.project-team img.project-img {
+    width: 100%;
+    height: 68vh;
+    margin: 0 auto;
+    border-radius: 2px;
+  }
+  section.project-team .img {
+    width: 100%;
+  }
+  section.project-team article img {
+    margin-top: 1.5rem;
+    max-height: 75px;
+    min-height: 75px;
+    min-width: 130px;
+    max-height: 130px;
+    /* width: 130px !important; */
+    height: 100%;
+    margin: 1rem auto;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  .carousel-inner:not(section.project-team .carousel-inner) {
+    top: 20%;
+  }
+  .carousel-section .carousel-item p.carousel-desc {
+    font-size: 15px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  section.contact .contact-wrapper header {
+    width: 100%;
+  }
+  section.contact .form-group {
+    margin-top: 0;
+}
+form {
+  padding: 1rem;
+}
+  select {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  section.contact input {
+    padding: 0.5rem;
+  }
+  section.resort-style h3 {
+    margin-top: 0rem;
+  }
+  section.lifestyle article {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 540px) and (min-height: 720px) {
+  section {
+    max-height: 100vh;
+    height: auto;
+    position: relative;
+  }
+  .text-block {
+    height: 55vh;
+  }
+  .img-block {
+    height: 50vh;
+  }
+  nav a.nav-btn {
+    width: 27vw;
+  }
+  section.immerse img,
+  section.immerse .img-block {
+    display: none;
+  }
+  section article {
+    line-height: 1.7;
+  }
+  section.immerse .text-block {
+    height: 100vh;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+  }
+  section.architecture img,
+  section.interiors img,
+  section.location img,
+  section.resort-style img,
+  section.lifestyle img {
+    height: 100%;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    width: 85%;
+    margin: 1.2rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 13px;
+  }
+  section.location article {
+    margin-top: 4rem;
+  }
+  .carousel-inner:not(section.project-team .carousel-inner) {
+    top: 18%;
+  }
+  .carousel-section .carousel-item p.carousel-desc {
+    font-size: 13px ;
+    width: 85%;
+    margin: 0 auto;
+  }
+  section.lifestyle .text-block p {
+    display: block;
+  }
+  section.project-team .wrapper {
+    width: 78%;
+    height: 62vh;
+  }
+  section.contact .contact-wrapper {
+    width: 88%;
+  }
+  section.contact .contact-wrapper header {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  section.contact input, section.contact select {
+    padding: 9.3px;
+  }
+  section.contact footer a {
+    font-size: 1rem;
+  }
+  section.project-team .img {
+    width: 0;
+}
+section.contact .form-group {
+  margin-top: 0;
+}
+}
+@media screen and (max-width: 540px) and (min-height: 720px) {
+  section.immerse article {
+    width: 70%;
+    line-height: 1.3;
+  }
+  header nav .hamburger-menu {
+    margin-left: 3rem !important;
+    font-size: 40px;
+  }
+  header nav .brand {
+    margin-left: 0;
+  }
+  nav .nav-items a:nth-child(1) {
+    display: none;
+  }
+  nav .menu-icon i {
+    font-size: 29px;
+  }
+  nav a.nav-btn {
+    margin-right: 0;
+}
+  header nav .hamburger-menu {
+    margin-left: 7rem;
+    font-size: 40px;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  section p {
+    font-size: 13px;
+  }
+  section.immerse article h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+    font-size: 1.75rem;
+  }
+  section.architecture .text-block {
+    display: none;
+  }
+  section.lifestyle .text-block {
+    height: 40vh;
+}
+  section.architecture .img-block {
+    height: 100vh;
+  }
+  section.interiors .img-block {
+    display: none;
+  }
+  section.interiors .text-block {
+    height: 100vh;
+  }
+  section.interiors p {
+    width: 85%;
+    margin: 1.2rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  section.location article h4,
+  section.resort-style article h4,
+  section.lifestyle article h4 {
+    display: none !important;
+  }
+  section.lifestyle article {
+    margin-top: 3.5rem;
+  }
+  section.location .text-block,
+  section.resort-style .text-block,
+  section.lifetsyle .text-block {
+    height: 40vh;
+    /* margin-top: 3rem; */
+  }
+  section.resort-style .text-block {
+    margin-top: 0;
+  }
+  section.location .img-block,
+  section.resort-style .img-block,
+  section.lifestyle .img-block {
+    height: 60vh;
+  }
+  section.carousel3 p.carousel-desc,
+  section.carousel5 .carousel-desc {
+    font-size: 17px;
+    text-align: center;
+  }
+  section.project-team article img {
+    /* width: 73px; */
+    width: 181px;
+  }
+  section.project-team img.project-img {
+    display: none;
+  }
+  section.project-team article {
+    width: 100%;
+  }
+  section.project-team article p {
+    font-size: 14px;
+    margin-top: 2rem;
+  }
+  section.project-team .carousel-btn {
+    bottom: -23px;
+  }
+  section.contact .contact-wrapper header h3 {
+    margin-top: 19px;
+    margin-bottom: 0px;
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 414px) and (min-height: 736px) {
+  section {
+    max-height: 100vh;
+    height: auto;
+    position: relative;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  .text-block {
+    height: 50vh;
+  }
+  .img-block {
+    height: 50vh;
+  }
+  nav a.nav-btn {
+    width: 27vw;
+  }
+  section.immerse img,
+  section.immerse .img-block {
+    display: none;
+  }
+  section article {
+    line-height: 1.7;
+  }
+  section.immerse .text-block {
+    height: 100vh;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    font-size: 1.3rem;
+  }
+  section.architecture img,
+  section.interiors img,
+  section.location img,
+  section.resort-style img,
+  section.lifestyle img {
+    height: 100%;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    width: 85%;
+    margin: 1.2rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 12px;
+  }
+  section.location .text-block article p,
+  section.resort-style article p {
+    display: block !important;
+  }
+  section.architecture article,
+  section.location article,
+  section.lifestyle article {
+    margin-top: 3rem;
+  }
+  section.architecture .text-block,
+  section.location .text-block,
+  section.lifestyle .text-block {
+    height: 60vh;
+    display: flex;
+  }
+  section.interiors .text-block,
+  section.resort-style .text-block,
+  section.resort-style .img-block {
+    height: 50vh;
+  }
+  section.architecture .img-block,
+  section.location .img-block {
+    height: 40vh;
+  }
+  section.interiors .img-block {
+    display: flex;
+  }
+  section.location img,
+  section.lifetsyle img {
+    height: 133%;
+  }
+  section.lifestyle .text-block p {
+    display: block !important;
+  }
+  section.project-team .wrapper {
+    width: 78%;
+    height: 50vh;
+  }
+  section.contact .contact-wrapper {
+    width: 88%;
+  }
+  section.contact .contact-wrapper header {
+    width: 100%;
+  }
+  section.contact .contact-wrapper header h3 {
+    font-size: 1.5rem !important;
+  }
+  select {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  section.contact input {
+    padding: 9.3px;
+  }
+  section.contact footer a {
+    font-size: 1rem;
+  }
+  .fp-tableCell {
+    /* display: inline-block !important; */
+  }
+  /* NEW */
+  section.project-team article img {
+    width: 208px;
+    margin: 0.8rem auto;
+  }
+  section.project-team article p {
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  section.project-team article p {
+    font-size: 0.9rem !important;
+  }
+  form input:first-child {
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 411px) and (min-height: 731px) {
+  section.project-team article p {
+    width: 80%;
+    font-size: 0.9rem !important;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  section.immerse article {
+    width: 100%;
+  }
+  section.immerse .text-block {
+    height: 55vh;
+  }
+  section.immerse .img-block {
+    height: 45vh;
+    display: block;
+  }
+  section.immerse .img-block img {
+    display: block;
+  }
+  section.immerse img {
+    height: 100%;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  section.architecture article p,
+  section.interiors article p,
+  section.location article p,
+  section.resort-style article p,
+  section.lifestyle article p {
+    width: 100%;
+    margin: 1rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 14px;
+    display: block !important;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    font-size: 1.8rem !important;
+  }
+  section.location h3,
+  section.architecture h3 {
+    margin-top: 5rem !important;
+  }
+  section.immerse .text-block article h4 {
+    font-size: 1.2rem !important;
+  }
+  form {
+    padding-bottom: 9px;
+  }
+
+  section .text-block,
+  section.location .text-block {
+    height: 55vh !important;
+    display: flex !important;
+    margin-top: 0;
+  }
+  section .img-block,
+  section.location .img-block {
+    height: 45vh !important;
+  }
+  section.architecture .img-block {
+    height: 45vh !important;
+  }
+  section.interiors .img-block {
+    display: flex;
+  }
+  section.interiors .text-block,
+  section.interiors .img-block {
+    height: 50vh;
+  }
+  section.lifetsytle .text-block {
+    height: 58vh;
+  }
+  section.location article {
+    margin-top: 3.6rem;
+  }
+  section.architecture article,
+  section.lifestyle article {
+    margin-top: 59px;
+  }
+  section.location img,
+  section.lifestyle img {
+    height: 119%;
+  }
+  section.interiors article,
+  section.resort-style article {
+    margin-bottom: 40px;
+  }
+  section.project-team .wrapper {
+    width: 78%;
+    height: 48vh;
+  }
+  section.contact .contact-wrapper header {
+    padding-bottom: 1rem;
+    padding-top: 4.5rem;
+  }
+  section.contact h3 {
+    font-size: 1.8rem;
+  }
+  section.contact input {
+    padding: 0.4rem;
+  }
+  /* new */
+  section.project-team article img {
+    width: 181px;
+    margin: -0.1rem auto;
+  }
+  section.project-team article p {
+    margin-bottom: 2rem;
+    font-size: 1rem !important;
+  }
+  section.contact .contact-wrapper header h3 {
+    margin-bottom: 16px;
+    font-size: 1.5rem !important;
+  }
+  section .carousel-section p.carousel-desc {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-height: 667px) {
+  nav a.nav-btn {
+    width: 27vw;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  section article {
+    line-height: 1.3;
+  }
+  section article {
+    margin-top: initial;
+  }
+  section.immerse article {
+    width: 90%;
+    margin-top: 3rem;
+  }
+  section.location article,
+  section.lifestyle article {
+    margin-top: initial;
+  }
+  section.interiors .fp-tableCell {
+    display: inline;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    width: 85%;
+    margin: 1.2rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 13px !important;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 0.8rem;
+  }
+  section.location h3 {
+    margin-top: 5rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  section.lifestyle .text-block p {
+    display: block;
+  }
+  form {
+    padding: 12px;
+    padding-bottom: 1rem;
+  }
+  form input:first-child {
+    margin-top: 6px;
+  }
+  section .carousel-section p.carousel-desc {
+    font-size: 13px !important;
+  }
+  section.project-team article p,
+  section.project-team a {
+    font-size: 12.5px !important;
+  }
+  /* IMMERSE SECTION */
+  section.immerse img {
+    display: flex;
+    height: 100%;
+  }
+  section.immerse .text-block {
+    height: 60vh;
+  }
+  section.immerse article h3 {
+    margin-top: 0;
+  }
+  section .text-block {
+    height: 60vh;
+  }
+  section .img-block {
+    height: 40vh;
+  }
+  /* INTERIORS SECTION */
+  section.interiors article h3,
+  section.resort-style article h3 {
+    margin-top: 3rem;
+  }
+  /* PROJECT TEAM SECTION */
+  section.project-team .wrapper {
+    width: 78%;
+    height: 55vh;
+  }
+  /* CONTAXT SECTION */
+  section.contact .contact-wrapper {
+    width: 88%;
+  }
+  section.contact .contact-wrapper header {
+    padding-bottom: 1rem;
+    padding-top: 4.5rem !important;
+    font-size: 1.7rem;
+    width: 100%;
+  }
+  select {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  section.contact input {
+    padding: 5.8px;
+  }
+  section.contact footer a {
+    font-size: 1rem;
+  }
+  section.contact h3 {
+    font-size: 1.3rem;
+  }
+  section.location .text-block,
+  section.resort-style .text-block {
+    height: 60vh;
+  }
+  section.location .img-block,
+  section.resort-style .img-block {
+    height: 40vh;
+  }
+  section.project-team .carousel-section img.project-img {
+    display: none;
+  }
+  section.project-team article {
+    width: 100%;
+    font-family: "Gotham arial";
+    position: relative;
+  }
+  /* NEW */
+  section.project-team article img {
+    width: 208px;
+    margin: 0.8rem auto;
+  }
+  section.project-team article p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) and (min-height: 640px),
+  (max-width: 411px) and (min-height: 731px),
+  (max-width: 320px),
+  (max-width: 375px) and (min-height: 667px),
+  (max-width: 414px) and (min-height: 736px) {
+  /* MOTO G4 */
+  section .carousel-section p.carousel-desc {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 11px;
+  }
+  section.immerse article {
+    width: 74%;
+  }
+  section.home {
+    height: auto;
+    background: url("./images/375x667.png");
+    background-position: center;
+    background-size: cover;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  section article {
+    line-height: 1.1;
+  }
+  section.architecture .text-block {
+    display: flex;
+  }
+  section.architecture article,
+  section.location article,
+  section.lifestyle article {
+    margin-top: initial;
+  }
+  section.resort-style h3 {
+    margin-top: 1rem;
+  }
+  section.lifestyle h3 {
+    margin-top: 4.5rem;
+  }
+  section.immerse h4 {
+    display: block;
+  }
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    width: 85%;
+    margin: 1rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 11px;
+  }
+  section.interiors article h3 {
+    margin-top: 0;
+  }
+  section.immerse ul,
+  section.immerse .text-block article h4 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  section .text-block article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  section.immerse img {
+    display: block;
+    height: 100%;
+  }
+  section.immerse .img-block {
+    display: none;
+  }
+  section .text-block,
+  section.immerse .text-block {
+    height: 100vh !important;
+    display: flex;
+  }
+  section .img-block {
+    /* height: 38vh !important; */
+  }
+  section.immerse .text-block {
+    height: 100vh;
+  }
+  section.interiors .text-block,
+  section.interiors .img-block {
+    height: 50vh;
+  }
+  section.location .text-block {
+    height: 68vh;
+  }
+  section.location img,
+  section.lifestyle img {
+    height: 119%;
+  }
+  section .text-block,
+  section .img-block {
+    height: 50vh !important;
+  }
+  section article h4 {
+    display: none;
+    font-size: 1.5rem;
+  }
+  section.interiors article,
+  section.resort-style article {
+    margin-bottom: initial;
+  }
+  section.project-team .wrapper {
+    width: 80%;
+    height: 62vh;
+  }
+  section.project-team article {
+    width: 100%;
+  }
+  section.project-team img.project-img {
+    width: 49%;
+    height: 68vh;
+    margin: 0 auto;
+    margin-top: 17px;
+    display: none;
+    border-radius: 2px;
+  }
+  section.contact .contact-wrapper header {
+    padding-bottom: 1rem;
+    padding-top: 7.5rem;
+    width: 100%;
+  }
+  section.contact .contact-wrapper header h3 {
+    font-size: 1.25rem;
+    margin-top: 40px;
+  }
+  section.contact input {
+    padding: 0.4rem;
+  }
+  section.contact .contact-wrapper {
+    width: 88%;
+  }
+  section.contact .contact-wrapper header {
+    padding-bottom: 1rem;
+    padding-top: 3.1rem;
+    font-size: 1.7rem;
+  }
+  select {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  section.contact input {
+    padding: 6.8px;
+  }
+  section.contact footer a {
+    font-size: 1rem;
+  }
+  section.contact h3 {
+    font-size: 1.3rem;
+  }
+  section.project-team .contentBox {
+    display: block;
+  }
+  section.project-team article p {
+    width: 80%;
+  }
+  section.contact .form-group {
+    margin-top: 0;
+  }
+  section.contact .contact-wrapper {
+    width: 100%;
+  }
+  /* NEW */
+  section.project-team article img {
+    width: 208px;
+    margin: 0.8rem auto;
+  }
+  .carousel-inner:not(section.project-team .carousel-inner) {
+    top: 17%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav a.nav-btn {
+    width: 33vw;
+  }
+  header nav .brand {
+    margin-left: 0;
+  }
+  section.architecture .text-block {
+    display: initial;
+  }
+  section article {
+    line-height: 1.7;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  section.interiors .fp-tableCell {
+    display: inline;
+  }
+  section.immerse p {
+    font-size: 15px;
+  }
+  section.architecture p {
+    font-size: 10px;
+  }
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    width: 85%;
+    margin: 1.2rem auto;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 10px;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 3.5rem;
+    margin-bottom: 0.8rem;
+    width: 100%;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  section.lifestyle .text-block p {
+    display: block;
+  }
+  /* IMMERSE SECTION */
+  section.immerse .img-block {
+    display: none;
+  }
+  section.immerse .text-block {
+    height: 100vh;
+    width: 100%;
+  }
+  section.immerse article {
+    width: 90%;
+  }
+  section p {
+    font-size: 12px;
+  }
+  section.architecture article {
+    margin-top: 6rem;
+  }
+  section.location article {
+    margin-top: 3rem;
+  }
+
+  /* INTERIORS SECTION */
+  section.interiors article h3,
+  section.resort-style article h3 {
+    margin-top: 0;
+  }
+  /* PROJECT TEAM SECTION */
+  section.project-team .wrapper {
+    width: 90%;
+    height: 62vh;
+  }
+  section.project-team article p {
+    margin-bottom: 0;
+  }
+  /* CONTAXT SECTION */
+  section.contact .contact-wrapper {
+    width: 88%;
+  }
+  section.contact .contact-wrapper header {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+    padding: 0.4rem;
+  }
+  section.contact input {
+    padding: 9.3px;
+  }
+  section.contact footer a {
+    font-size: 1rem;
+  }
+
+  section.location .text-block,
+  section.resort-style .text-block,
+  section.lifestyle .text-block {
+    height: 60vh;
+  }
+  section.location .img-block,
+  section.resort-style .img-block,
+  section.lifestyle .img-block {
+    height: 40vh;
+  }
+  section.architecture .img-block {
+    height: 35vh;
+  }
+  section.architecture .text-block {
+    height: 65vh;
+    text-align: center;
+  }
+  section.lifestyle article {
+    margin-top: 29px;
+  }
+  .carousel-inner {
+    width: 88%;
+  }
+  section.project-team article img {
+    width: 73px;
+  }
+  section.project-team article {
+    width: 100% !important;
+  }
+  section.contact .contact-wrapper header {
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+  }
+  section.contact h3 {
+    font-size: 1.05rem;
+  }
+  section.contact input {
+    padding: 0.4rem;
+  }
+  section.project-team img.project-img {
+    display: none;
+  }
+  .text-block {
+    height: 50vh;
+  }
+  .img-block {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 375px) and (min-height: 812px) {
+  section.architecture p,
+  section.interiors p,
+  section.location p,
+  section.resort-style p,
+  section.lifestyle p {
+    font-size: 12px;
+  }
+  section.architecture article h3,
+  section.interiors article h3,
+  section.location h3,
+  section.resort-style h3,
+  section.lifestyle h3 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  section.location article,
+  section.lifestyle article {
+    margin-top: 4rem;
+  }
+  section.resort-style article h3 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+  }
+  section.project-team article p {
+    font-size: 15px !important;
+  }
+  h4 {
+    font-size: 1.1rem;
+  }
+  form {
+    padding: 9px;
+  }
+  form input:first-child {
+    margin-top: 10px;
+  }
+  section.location article {
+    margin-top: 0.5rem;
+  }
+  section.lifestyle article {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header nav .brand {
+    margin-left: initial;
+  }
+  section.immerse article {
+    line-height: 1.4;
+  }
+  section.immerse article h3 {
+    font-size: 20px;
+  }
+  section.immerse p {
+    font-size: 15px;
+  }
+  section.immerse ul {
+    font-size: 15px;
+  }
+  section.immerse img {
+    display: block;
+  }
+  h6 {
+    font-size: 15px;
+  }
+  section.architecture article{
+    margin-top: 7rem;
+  }
+  section.location img, section.lifestyle img {
+    height: 100%;
+}
+section.project-team article p, section.project-team a {
+  font-size: 12px !important;
+}
+  section.lifestyle h3 {
+    margin-top: 2.5rem;
+}
+  section.immerse .text-block {
+    height: 100vh;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+}
